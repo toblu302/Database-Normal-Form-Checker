@@ -1,0 +1,11 @@
+R1A(A,B,C,D)
+A -> C
+A,B -> C,D
+
+R1B(A,B,C,D)
+A -> C
+B -> A,C,D
+
+R1C(A,B,C,D)
+A,B -> C,D
+C -> B
